@@ -1,0 +1,97 @@
+.cofee{
+    margin: 50px 120px;
+    color: #000000;
+}
+.cofee .icons{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.cofee .icons .bx{
+    margin-left: 30px;
+    margin-bottom: 70px;
+    z-index: 1;
+}
+/* .container .d-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.row{
+    display: flex !important;
+    
+}
+.heart{
+    position: absolute;
+    z-index: 1 !important;
+    font-size: 25px;
+    margin-top: 5px;
+    color: red;
+    transform: translateX(200px);
+    opacity: 0;
+    cursor: pointer;
+    transition: .5s;
+}
+.card:hover .heart{
+    opacity: 100;
+}
+.cards .card{
+    display: flex;
+}
+.card {
+    position: relative;
+    background: #fff5f5;
+    max-width: 280px;
+    max-height: auto;
+    
+    overflow: hidden;
+}
+.card p{
+    font-size: 13px;
+}
+.price a{
+    padding: 5px 8px;
+    background-color: rgb(52, 30, 30);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 20px !important;
+    font-size: 15px !important;
+    cursor: pointer;
+}
+/* .price h6{
+    transform: translateX(-30px);
+} */
+.cofee .container h3{
+    color: rgb(52, 30, 30);
+}
+.cofee h3{
+    background: linear-gradient(270deg, #d24205 50.41%, #B923E1 90.28%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width:568px){
+    .cofee h3{
+        font-size: 23px;
+    }
+    .card{
+        margin: 20px 10px;
+    }
+    .cofee {
+        margin: auto auto;
+        color: #000000;
+    }
+    
+}
+
+@media(max-width:768px){
+    .card{
+        margin: 20px 10px;
+    }
+    .bg {
+        margin-left: 0;
+    }
+}

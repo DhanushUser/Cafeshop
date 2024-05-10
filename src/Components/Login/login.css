@@ -1,0 +1,38 @@
+.login{
+   background: linear-gradient(rgba(0,0,0,.90),rgba(0, 0, 0, .90)) !important;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000 !important; 
+    position: fixed;
+    top: 0;
+    /* display: none !important; */
+    
+}
+.login-details{
+    background: #ccc !important;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    left: 0;
+
+}
+.login-search input{
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+.check input[type='checkbox']{
+    width: 20px;
+    /* margin-right: 10px; */
+}
+.check p, a{
+    font-size: 14px;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
